@@ -1,0 +1,42 @@
+name: aisits_mobileapp
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  cupertino_icons: 
+  test: 
+  flutter_map: 
+  latlong2: 
+  http: 
+  web_socket_channel:
+  socket_io_client: 
+  flutter_svg: 
+  flutter_map_marker_cluster: 
+  async: 
+  provider: 
+  shared_preferences: 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  - assets/ship.json
+  - assets/icons/cargo.svg
+  - assets/icons/cruise.svg
+  - assets/icons/special.svg
+  - assets/icons/support.svg
+  - assets/icons/tanker.svg
+  - assets/icons/unknown.svg
